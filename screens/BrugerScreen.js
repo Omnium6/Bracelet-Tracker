@@ -32,7 +32,7 @@ export default function HomeScreen() {
   useEffect(() => {
   const interval = setInterval(() => {
     if (!isConnected && !manuallyDisconnected) {
-      console.log("🔍 Ikke forbundet - prøver at scanne igen...");
+      console.log("Ikke forbundet - prøver at scanne igen...");
       scanDevices();
     }
   }, 60000); // hvert 60. sekund
@@ -93,7 +93,7 @@ export default function HomeScreen() {
         await updateFallTime(recievedTime);
 
         if (message === 'y' && !hasFetchedLocationInBackground) {
-          console.log("📍 Henter lokation fra baggrunden...");
+          console.log("Henter lokation fra baggrunden...");
           await fetchLocationAndAddress();
           hasFetchedLocationInBackground = true;
         }
