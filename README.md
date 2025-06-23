@@ -62,3 +62,22 @@ The project consists of multiple files. All the screens that are displayed in th
 - Add iOS support
 - Implement login system
 - Improve BLE stability
+
+# Bracelet
+The code for the bracelet can be found in the folder "BraceletCode". <br>
+The for the IMU is inspired by the include IMU example for the Arduino Nano 33 ble rev 2 board. Files and functions for the E-ink display are created by Waveshare, when stated in the files. <br>
+LLMs were used for debugging and syntax errors.
+Pointer logic is probably not nescesary in most instances but was used to control memory usage, in early stages of the project when a ML for fall detection was trying to be implemented.
+## Dependencies
+ArduinoBLE<br>
+Arduino_BMI270_BMM150.h
+# Beacon
+Firebase logic for the beacon was inspired by this tutorial https://randomnerdtutorials.com/esp32-firebase-realtime-database/ <br>
+The base for the BLE conncetivity was based on this tutorial https://randomnerdtutorials.com/esp32-bluetooth-low-energy-ble-arduino-ide/ <br>
+LLMs were used for debugging and syntax errors, also for more detailed explanations of code.
+## Dependencies
+WiFi<br>
+WiFiClientSecure<br>
+FirebaseClient <br>
+BLEDevice 
+
