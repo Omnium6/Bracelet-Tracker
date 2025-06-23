@@ -62,7 +62,7 @@ export default function useBLE() {
       return;
     }
 
-    console.log('🔍 Scanning with filters...');
+    console.log('Scanning with filters...');
 
     // Starter med at scanne
     bleManager.startDeviceScan(
