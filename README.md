@@ -35,6 +35,15 @@ There are two main purposes of the app. The first is to communicate with a medic
 
 `npx react-native run-android`
 
+## Download via QR Code
+
+Scan the QR code below to download the APK file:
+
+![QR Code] (https://github.com/Omnium6/Bracelet-Tracker/blob/main/QRCode.png)
+
+If you prefer not to use the QR code, you can download the APK directly here:  
+[Download APK] (https://github.com/Omnium6/Bracelet-Tracker/releases/download/v1.0.0/app-release.apk)
+
 ## Dependencies
 
 - react-native-ble-plx
